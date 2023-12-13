@@ -1,0 +1,7 @@
+Hi {},
+
+your area is {}
+this is a test email to test email automation
+
+
+thank you.
