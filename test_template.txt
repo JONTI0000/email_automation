@@ -1,3 +1,7 @@
-<h1>Hi {} </h1> 
+<h1>Hi {name}</h1> 
 <br> 
-<p>this is a email sent using an automation</p>
+<p style="font-size: 20px;"> I believe my colleague Kivin has been 
+(or is soon to be) in touch via 
+email, to discuss a proposal for {area} that will boost local business 
+growth, drive town centre footfall & spend, and grow the destination brand.</p ">
+<p style="font-size: 17px;>this is a email sent using an automation</p>

@@ -54,11 +54,14 @@ def getting_input():
     input_count = 0
     while input_count < count:
         if input_count < count:
+            print("")
+            print("Enter details for Email {email_no}".format(email_no=input_count+1))
+            name = input("Name of Sender: ")
             email = get_valid_email()
             step = get_valid_step()
             subject = input("Enter the Subject: ").strip()
             batch_no = get_valid_batch()
-            instance= EmailSender(batch_no=batch_no, email_address=email, subject=subject, step=step)
+            instance= EmailSender(name=name,batch_no=batch_no, email_address=email, subject=subject, step=step)
             instances.append(instance)
             input_count += 1
     return instances
