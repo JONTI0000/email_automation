@@ -1,5 +1,5 @@
 <body style="font-family: Arial, sans-serif; margin: 0; padding: 0;">
-  <div style="border-top: 2px solid #333; padding-top: 10px; margin-top: 20px; font-size: 14px; color: #555;">
+  <div style="padding-top: 10px; margin-top: 20px; font-size: 14px; color: #555;">
     <p style="margin: 0;"><span style="font-weight: bold; color: #000;">{name}</span><br>
     <span style="color: #888;">Sales Executive</span></p>
     <p style="margin: 5px 0 0 0;">Email: <a href="mailto:{email}" style="text-decoration: none; color: #555;">{email}</a><br>
