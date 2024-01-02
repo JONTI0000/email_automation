@@ -1,6 +1,0 @@
-<h4 style="test-decoration:none">Hi {name}</h4>
-<p style="font-size:16px;
-font-family: Arial, Helvetica, sans-serif;" >
-This is a email to test out the health of an email disregard if received.</p>
-
-<p style="font-size:14px;font-family: Arial, Helvetica, sans-serif;">Sent using the VM</p>
