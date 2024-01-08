@@ -1,6 +1,25 @@
-<h4 style="test-decoration:none">Hi {name}</h4>
-<p style="font-size:16px;
-font-family: Arial, Helvetica, sans-serif;" >
-This is a email to test out the health of an email disregard if received.</p>
+<p style="font-size:16px;">Dear {name}</p>
 
-<p style="font-size:14px;font-family: Arial, Helvetica, sans-serif;">Sent using the VM</p>
+<div style="font-size:14px;" >
+<p>
+I am writing to you from bubltown. You may not have heard of us yet, but for the past 2 years, 
+we've been working with local authorities in the UK to implement our global award-winning smart economy solution. 
+</p>
+
+<p>
+With consecutive successes in our last few projects we have just begun to roll out globally,
+we work with major UK councils such as Brent, Newcastle, Merton and Coventry to fuel economic
+growth, support local businesses and grow local spend.
+</p>
+
+<p>
+We would simply love the opportunity to discuss the possibility of proposing a project for your busines in {area}.
+</p>
+
+<p>
+Might your diary allow for a brief introduction.
+</p>
+
+<p>Sincerely,</p>
+
+</div>

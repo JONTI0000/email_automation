@@ -1,7 +1,20 @@
-<h1>Hi {name}</h1> 
-<br> 
-<p> I believe my colleague Kivin has been 
-(or is soon to be) in touch via 
-email, to discuss a proposal for {area} that will boost local business 
-growth, drive town centre footfall & spend, and grow the destination brand.</p style="font-size:16px;">
-<p>this is a email sent using an automation</p>
+<p style="font-size:16px;">Dear {name}</p>
+
+<div style="font-size:14px;" >
+<p>
+I'm writing to follow up on my previous emails and hope you're well.
+</p>
+
+<p>
+By way of a brief reminder about my previous notes - poddle is a
+ bleeding-edge, global award-winning smart business solution. 
+</p>
+
+<p>
+Do let me know if you or the appropriate member of your team might be 
+available for a brief chat.
+</p>
+
+<p>Sincerely,</p>
+
+</div>

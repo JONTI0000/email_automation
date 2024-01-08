@@ -1,7 +1,18 @@
-<h1>Hi {name}</h1> 
-<br> 
-<p> I believe my colleague Kivin has been 
-(or is soon to be) in touch via 
-email, to discuss a proposal for {area} that will boost local business 
-growth, drive town centre footfall & spend, and grow the destination brand.</p style="font-size:16px;">
-<p>this is a email sent using an automation</p>
+<p style="font-size:16px;">Dear {name}</p>
+
+<div style="font-size:14px;" >
+<p>
+I regret that we couldn't connect,
+and assume that either the timing isn't quite right or that I have not 
+communicated our benefits sufficiently.
+</p>
+
+<p>
+I do firmly believe we could form a very effective partnership though, 
+and my inbox is always open to you should you wish to learn more about 
+poddle in the context of your business in the future.
+</p>
+
+<p>Sincerely,</p>
+
+</div>
