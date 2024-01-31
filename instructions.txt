@@ -1,4 +1,7 @@
 --This is a set of instructions on how to set up this automation tool--
+NOTE
+each batch file can only be accessed by one email at a time
+
 
 when setting up the file structure for this the following folders should be given as well as all the files should be kept in the
 respective folder accordingly
