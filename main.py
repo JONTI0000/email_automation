@@ -104,6 +104,14 @@ class EmailSender:
         if self.bcc_recipients:
             mail.BCC = ";".join(self.bcc_recipients)
         mail.Send()
+    
+    def make_directories(self,batch_no):
+        path = os.path.join(self.path,"batch_output",batch_no)
+        if  not os.path.exists(path):
+            try:
+                os.makedirs(path)
+            except OSError as e:
+                print(f"Error creating directory {path}: {e}")
         
     def sending_emails(self):
         template_text = self.preparing_template()
@@ -120,8 +128,10 @@ class EmailSender:
             time_now = datetime.now().strftime('%H:%M:%S')
             date_now= datetime.now().date()
             print(f"Email:{to} Time:{time_now} sending from:{self.email_address}")
-
-            path = os.path.join(self.path,"batch_output",f"{self.batch_no}_output.csv")
+            
+            self.make_directories(self.batch_no)
+            
+            path = os.path.join(self.path,"batch_output",self.batch_no,f"step_{self.step}_output.csv")
             with open(path,'a', newline='') as csv_file:
                 csv_writer = csv.writer(csv_file)
                 csv_writer.writerow((to[0],self.email_address,time_now,self.step,self.batch_no,self.subject,date_now))

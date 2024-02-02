@@ -19,8 +19,8 @@ def ready_html_email(name,area,step):
     mail.HTMLBody += signature
 
     mail.To = ";".join(["janidul03@gmail.com"])
-    mail.Display(True)
-    
+#   mail.Display(False)
+
 try:
     step = input("Enter step to preview: ")
 except FileNotFoundError:
