@@ -1,4 +1,4 @@
---This is a set of instructions on how to set up this automation tool--
+# --This is a set of instructions on how to set up this automation tool--
 NOTE
 each batch file can only be accessed by one email at a time
 
