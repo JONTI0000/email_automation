@@ -3,6 +3,7 @@ from pre_run import getting_input
 from main import EmailSender
 from datetime import datetime
 
+from sheduler import getting_input
 start_time = datetime.now()
 now = start_time.strftime('%H:%M:%S')
 
